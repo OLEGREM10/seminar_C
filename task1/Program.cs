@@ -4,12 +4,17 @@
 //a = 9, b = -3 -> да
 //a = -3 b = 9 -> нет
 
+Console.WriteLine("Является ли первое число квадратом второго числа");
 Console.WriteLine("Введите первое число "); // Просим пользователя ввести первое число
 int number = Convert.ToInt32(Console.ReadLine()); // Конвертируем строковый тип в целочисленый
+
 Console.WriteLine("Введите второе число ");
 int number_1 = Convert.ToInt32(Console.ReadLine());
-    if(number == number_1 * number_1){ // Сравниваем первое число со вторым ^2
+    if(number == number_1 * number_1) // Сравниваем первое число со вторым ^2
+    { 
         Console.WriteLine("Да является");
-}   else{
+}   
+else
+{
         Console.WriteLine("Не является");
 }
