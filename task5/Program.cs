@@ -8,8 +8,8 @@ int number = Convert.ToInt32(Console.ReadLine()); // конвертируем и
 number = Math.Abs(number); // функия Math.Abs принимает любое число и переводит его в положительное
 int i = -number; // из положительного числа делаем отрицательное и помещаем в переменую i
 
-while(i <= number)
-{ // в цикле создаем условие,что i <= number 
+while(i <= number)// в цикле создаем условие,что i <= number
+{ 
     Console.WriteLine(i++); // С начало выводим i на экран, а затем к i плюсуем +1
     
 }

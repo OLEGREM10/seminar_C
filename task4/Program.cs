@@ -9,7 +9,7 @@ int num = Convert.ToInt32(Console.ReadLine());
 int temp = num % 7;
 int temp1 = num % 23;
 
-   if(temp == 0 & temp == 0)
+   if(temp == 0 & temp1 == 0)
    {
      Console.WriteLine($"{num} кратно 7 и 23");
    }
